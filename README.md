@@ -9,7 +9,7 @@ TO run
 ```pip install -r requirements.txt```
 3. Run the backend
   ```uvicorn main:app --reload```
-4. Run the frontend
-   ```cd ../frontend```
-   ```npm install```
-   ```npm start```
+4. ```Run the frontend
+   cd ../frontend
+   npm install
+   npm start

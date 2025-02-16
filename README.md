@@ -1,4 +1,4 @@
-TO run
+# To run
 
 1. Create and activate the virtual environment 
   ```
@@ -21,7 +21,7 @@ TO run
    npm install
    npm start
   ```
-# Also need to have MySQL server installed and running, create a .env folder with the following information in backend folder
+## Also need to have MySQL server installed and running, create a .env folder with the following information in backend folder
 ```
 MYSQL_USER=
 MYSQL_PASSWORD=

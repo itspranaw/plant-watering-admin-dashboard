@@ -1,15 +1,18 @@
 TO run
 
 1. Create and activate the virtual environment 
-```cd backend ```
-```python -m venv env```
-```Source env/bin/activate # for linux ```
-```env/Scripts/activate # for windows ```
-2. Install the dependencies
+```
+cd backend 
+python -m venv env
+Source env/bin/activate # for linux 
+env/Scripts/activate # for windows
+```
+3. Install the dependencies
 ```pip install -r requirements.txt```
-3. Run the backend
+4. Run the backend
   ```uvicorn main:app --reload```
-4. ```Run the frontend
+5. Run the frontend
+  ```
    cd ../frontend
    npm install
    npm start
